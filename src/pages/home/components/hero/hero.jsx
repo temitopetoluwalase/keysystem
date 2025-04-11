@@ -28,14 +28,14 @@ const Hero = () => {
         <div className='absolute w-full top-15'>
           <Image
             highResSrc={'https://i.postimg.cc/xC8hNNXv/Vector-1-Stroke.png'}
-            lowResSrc={'@/assets/images/hero-vector.png'}
+            lowResSrc={'https://i.postimg.cc/7PtGz5LK/Vector-1-Stroke-1.png'}
             alt='hero-img'
           />
         </div>
         <div className='max-w-[970px]'>
           <Image
             highResSrc={'https://i.postimg.cc/k4HZQMSk/Rectangle-2.png'}
-            lowResSrc={'@/assets/images/hero.png'}
+            lowResSrc={'https://i.postimg.cc/fT33fMtD/Rectangle-2-1.png'}
             alt='hero-img'
           />
         </div>
