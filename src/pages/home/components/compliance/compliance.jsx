@@ -15,7 +15,7 @@ const Compliance = () => {
             }
             btnText={'Contact Us'}
           />
-          <div className='bg-white rounded-lg flex flex-wrap justify-between gap-y-5 gap-x-10 items-center p-4 mt-20'>
+          <div className='bg-white rounded-lg flex flex-wrap justify-between gap-y-5 gap-x-10 items-center px-4 py-8 mt-20'>
             {compliance_logos.map((img, i) => (
               <img
                 key={i}

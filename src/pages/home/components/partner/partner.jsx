@@ -13,7 +13,7 @@ const Partner = () => {
       </div>
 
       <div className='bg-[#050619] flex justify-center py-12'>
-        <div className='flex md:h-[91px] flex-wrap justify-center gap-10 items-center max-w-[1234px] w-full'>
+        <div className='flex md:h-[91px] flex-wrap justify-center gap-10 md:gap-5 items-center max-w-[1234px] w-full'>
           {partner_logos.map((img, i) => (
             <img
               key={i}
