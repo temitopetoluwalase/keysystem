@@ -31,7 +31,7 @@ export default function Nav() {
   return (
     <Disclosure
       as='nav'
-      className='bg-gradient-to-r from-[#05071E] via-[#000080] to-[#111A89] py-5'
+      className='bg-gradient-to-r from-[#05071E] via-[#000040] to-[#111A89] py-3'
     >
       <div className='mx-auto max-w-[1234px] px-2 sm:px-6 lg:px-8'>
         <div className='relative flex h-16 items-center justify-between'>
@@ -52,7 +52,7 @@ export default function Nav() {
           </div>
           <div className='flex flex-1 sm:flex-0 items-center justify-end sm:items-stretch sm:justify-start'>
             <div className='flex shrink-0 items-center'>
-              <Logo />
+              <Logo style={{ height: '50px' }} />
             </div>
           </div>
 

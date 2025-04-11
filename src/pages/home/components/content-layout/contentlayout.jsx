@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ContentLayout = ({ isPrimary, children }) => {
+const ContentLayout = ({ isPrimary, children, noBg }) => {
   return (
     <div
-      className='flex justify-center py-10'
+      className='flex justify-center py-10 px-2'
       style={{
-        background: isPrimary ? '#03020a' : '#020106',
+        background: noBg ? '' : isPrimary ? '#03020a' : '#020106',
       }}
     >
       <div className='max-w-[1234px] w-full'>{children}</div>

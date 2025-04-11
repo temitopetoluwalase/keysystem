@@ -1,10 +1,10 @@
 import React from 'react';
 import Icon from '@/assets/icons/logo.svg?react';
 
-const Logo = () => {
+const Logo = ({ style }) => {
   return (
     <div>
-      <Icon />
+      <Icon style={style} />
     </div>
   );
 };
