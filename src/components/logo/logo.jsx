@@ -5,7 +5,6 @@ const Logo = () => {
   return (
     <div>
       <Icon />
-      {/* <img src='@/assets/icons/logo.svg' alt='' srcset='' /> */}
     </div>
   );
 };
