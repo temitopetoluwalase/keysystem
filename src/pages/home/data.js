@@ -210,3 +210,20 @@ export const compliance_logos = [
     alt: '',
   },
 ];
+
+export const represent_card = [
+  {
+    low_res_url: 'https://i.postimg.cc/ZK6s2103/1738871985922-1.png',
+    high_res_url: 'https://i.postimg.cc/KzKJNWd1/1738871985922-1-1.png',
+    title: 'Our Vision',
+    subTitle:
+      'To be the trusted partner for businesses seeking to leverage technology to improve decision-making, unlock new opportunities, and achieve transformative growth',
+  },
+  {
+    low_res_url: 'https://i.postimg.cc/MThtrDSd/1738871985890-2.png',
+    high_res_url: 'https://i.postimg.cc/66vM4DrS/1738871985890-2-1.png',
+    title: 'Our Mission',
+    subTitle:
+      'We bridge the gap between technology and business, delivering customized ICT solutions that drive efficiency, growth, and competitive advantage.',
+  },
+];

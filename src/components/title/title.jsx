@@ -9,7 +9,7 @@ const Title = ({ header, subTitle, btnText, noMargin }) => {
           {header}
         </h2>
         <p
-          className={`text-2xl max-w-[750px] text-white text-center ${
+          className={`text-2xl max-w-[750px] text-[#BBBBBB] text-center ${
             noMargin ? '' : btnText ? 'mb-8' : 'mb-10'
           }`}
         >
