@@ -22,7 +22,7 @@ const Represent = () => {
             our legacy, and we are proud to carry it forward. Watch the video to
             see how we are innovating to keep businesses on top of their games.
           </p>
-          <div className='gap-5 flex flex-wrap mt-22'>
+          <div className='gap-5 flex flex-wrap justify-center mt-22'>
             {represent_card.map((card, i) => (
               <div
                 key={i}
