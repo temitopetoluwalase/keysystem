@@ -8,10 +8,10 @@ const Hero = () => {
     <div className='bg-gradient-to-r from-[#05071E] via-[#000040] to-[#111A89]!'>
       <ContentLayout noBg>
         <div className='flex flex-col items-center'>
-          <div className='bg-[#2E6D9C] p-3 md:text-xl text-white rounded-4xl mb-5'>
+          <div className='bg-[#2E6D9C] p-3 md:text-xl text-white rounded-4xl border border-white mb-5'>
             Welcome to KeySystem
           </div>
-          <h1 className='font-bold md:text-[80px] text-white max-w-[500px] text-center mb-3'>
+          <h1 className='font-bold md:text-[80px] text-white max-w-[500px] text-center mb-3 leading-[108%]'>
             IT Consulting for Forward-thinking Businesses
           </h1>
           <p className='text-white md:text-3xl mb-14'>
