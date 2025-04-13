@@ -70,13 +70,13 @@ const Offerings = () => {
             }
             btnText={'Learn More'}
           />
-          <div className='flex justify-between flex-wrap gap-12 mt-15 md:mt-2'>
+          <div className='flex sm:justify-between justify-center flex-wrap gap-12 mt-15 lg:mt-2'>
             <div className='flex flex-col gap-12'>
               {first_row.map((data, i) => (
                 <Pills key={i} label={data.label} bg={data.bg} />
               ))}
             </div>
-            <div className='flex flex-col gap-12 md:mt-18'>
+            <div className='flex flex-col gap-12 lg:mt-18'>
               {second_row.map((data, i) => (
                 <Pills key={i} label={data.label} bg={data.bg} />
               ))}

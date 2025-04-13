@@ -227,3 +227,33 @@ export const represent_card = [
       'We bridge the gap between technology and business, delivering customized ICT solutions that drive efficiency, growth, and competitive advantage.',
   },
 ];
+
+export const process_card = [
+  {
+    title: 'Strategic Consultation',
+    content:
+      'We kick off with a strategic consultation to understand your brand, goals, and audience',
+    low_res_url: 'https://i.postimg.cc/Xv7Bq3h7/1738871985898-1-3.png',
+    high_res_url: 'https://i.postimg.cc/R0cK6XCX/1738871985898-1.png',
+    img_max_height: '243px',
+    min_height: '243px',
+    max_content_width: '535px',
+  },
+  {
+    title: 'Collaboration',
+    content:
+      'At KeySystem, we collaborate closely to ensure the end result meets your expectations and makes you happy',
+    low_res_url: 'https://i.postimg.cc/nLPrLmB0/1738871985909-1-2.png',
+    high_res_url: 'https://i.postimg.cc/m2HDghgS/1738871985909-1.png',
+    img_max_height: '300px',
+    max_content_width: '402px',
+  },
+  {
+    title: 'Delivery',
+    content: 'Our delivery rate is 100%; our clients deserve nothing less.',
+    low_res_url: 'https://i.postimg.cc/2y31wwmp/1738871985898-1-2.png',
+    high_res_url: 'https://i.postimg.cc/DyHXxt8x/1738871985898-1-1.png',
+    img_max_height: '180px',
+    max_content_width: '340px',
+  },
+];
